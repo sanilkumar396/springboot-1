@@ -65,11 +65,12 @@
 		</dependency>
 	</dependencies>
 	<distributionManagement>
-           <snapshotRepository>
-              <id>nexus</id>
-              <url>http://13.233.35.82:8081/nexus/content/repositories/snapshots</url>
-           </snapshotRepository>
-         </distributionManagement>
+    <snapshotRepository>
+        <id>artifactory</id>
+        <name>snapshots</name>
+        <url>http://3.15.166.219:8081/artifactory/Sample</url>
+    </snapshotRepository>
+</distributionManagement>
 	
 	<!--distributionManagement>
           <snapshotRepository>
